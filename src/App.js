@@ -15,8 +15,8 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route exact path="/componet" element={<Contentx1 />} />
-          <Route exact path="/a" element={<Contentx2 />} />
+          <Route exact path="/component" element={<Contentx1 />} />
+          <Route exact path="/component2" element={<Contentx2 />} />
         </Routes>
         <Footer />
       </Router>
