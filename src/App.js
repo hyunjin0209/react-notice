@@ -13,18 +13,20 @@ import Component1 from "./component/contents1";
 import Component2 from "./component/contents2";
 import Calculator from "./component/calculator/calculator";
 import Table from "./component/dataTable/table";
+import SignIn from "./component/signIn/SignIn";
 const Layout = () => {
   const locate = useLocation();
   console.log(locate);
 
   return (
     <>
-      {!locate.pathname.includes("/component2") && <Header />}
+      {!locate.pathname.includes("/x") && <Header />}
       <Routes>
         <Route exact path="/component" element={<Component1 />} />
         <Route exact path="/component2" element={<Component2 />} />
         <Route exact path="/calculator" element={<Calculator />} />
         <Route exact path="/dataTable" element={<Table />} />
+        <Route exact path="/signIn" element={<SignIn />} />
       </Routes>
       <Footer />
     </>
