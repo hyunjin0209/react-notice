@@ -3,8 +3,11 @@ const Result = ({ inputData }) => {
     <>
       <br />
       <br />
+      ------------------------------------------------------------------------
+      <br />
       <div>{inputData}</div>
     </>
   );
 };
+
 export default Result;
