@@ -1,7 +1,7 @@
-export default function Contentx2() {
+export default function Component2() {
   return (
     <>
-      <div>두번쨰 화면입니다</div>
+      <div>두번쨰 화면입니다.</div>
     </>
   );
 }
